@@ -130,8 +130,12 @@ gems[1] = 'Tourmaline';
 console.log( 'Gems 2 replaced: ', gems);
 // 5.b (STRETCH) TODO: Sort your gems array in reverse alphabetical order.
 //     Please console.log the sorted array.
+console.log('Orginal Gems: ', gems);
+const sortedGems = gems.sort();
+console.log( 'Sorted Gems: ', sortedGems);
 
-
+const reverseSortedGems = gems.reverse();
+console.log( "Reverse Sorted Gems: ", reverseSortedGems);
 // 5.c (STRETCH) TODO: Create a variable `gemString` and assign it a string value
 //     that's made up of each value from the `gems` array, but separated by the
 //     word "and".
